@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Coda&display=swap');
+
+$font-primary : 'Open Sans', sans-serif;
+$font-secondary : 'Coda', sans-serif;
+$font-tertiary : '', sans-serif;
+$font-heading : $font-secondary;
+$font-icon: FontAwesome;
+$font-sas: 'sas-webfont';
+
+
+$black: #222;
+$white: #ffffff;
+
+
+// Global
+$color-body: #000;
+$color-primary: #eb6123;
+$color-secondary: #19202E;
+$color-dark:rgb(17, 17, 17);
+$color-tertiary: transparent;
+$color-quaternary: transparent;
+$body-bg: #fff;
+$font-body: $font-primary;
+$content-padding: 100px;
+
+/* -------------------- 
+TOPBAR SETTING
+-----------------------*/
+$topbar-bg: $color-secondary;
+$topbar-color: $color-dark;
+$topbar-nav-color: $color-dark;
+$topbar-nav-hover-color: $color-primary;
+$topbar-font: $white;
+
+/* -------------------- 
+NAVBAR SETTING
+-----------------------*/
+$navbar-bg: $white;
+$navbar-font: $font-secondary;
+$navbar-color: $color-body;
+$navbar-hover-color: $color-primary;
+$navbar-active-color: $color-primary;
+$navbar-bg-stiky: $white;
+$navbar-stiky-color: $black;
+$navbar-stiky-active-color: $color-primary;
+
+/* -------------------- 
+FOOTER SETTING
+-----------------------*/
+$footer-bg: #F8F8F8;
+$footer-bg-copyright: darken($color-secondary, 10%);
+$footer-font-color: $color-body;
+
+/* -------------------- 
+BUTTON SETTING
+-----------------------*/
+$btn-primary-hover: $color-secondary;
+
+
+// Background
+$bg__topbar: $color-primary;
+
+.bolder{
+	font-weight: 600;
+}
+
+.cfix{
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.text-white{
+	color:rgb(240, 240, 240) !important;
+}
+@import "mixin.scss";
